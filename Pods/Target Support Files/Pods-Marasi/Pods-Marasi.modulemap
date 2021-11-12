@@ -1,0 +1,6 @@
+framework module Pods_Marasi {
+  umbrella header "Pods-Marasi-umbrella.h"
+
+  export *
+  module * { export * }
+}

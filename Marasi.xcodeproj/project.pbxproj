@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		926828EC273D4F84006EA301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926828EB273D4F84006EA301 /* AppDelegate.swift */; };
 		926828EE273D4F84006EA301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926828ED273D4F84006EA301 /* SceneDelegate.swift */; };
-		926828F0273D4F84006EA301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926828EF273D4F84006EA301 /* ViewController.swift */; };
-		926828F3273D4F84006EA301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926828F1273D4F84006EA301 /* Main.storyboard */; };
+		926828F0273D4F84006EA301 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926828EF273D4F84006EA301 /* HomeVC.swift */; };
 		926828F5273D4F85006EA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926828F4273D4F85006EA301 /* Assets.xcassets */; };
 		926828F8273D4F85006EA301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926828F6273D4F85006EA301 /* LaunchScreen.storyboard */; };
+		9268290E273D8F29006EA301 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9268290D273D8F29006EA301 /* Home.storyboard */; };
+		92682911273D8F7A006EA301 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682910273D8F7A006EA301 /* Storyboarded.swift */; };
+		92682914273D8FB9006EA301 /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682913273D8FB9006EA301 /* StoryboardName.swift */; };
+		92682916273D9006006EA301 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682915273D9006006EA301 /* Constants.swift */; };
+		9268291C273E7F22006EA301 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268291B273E7F22006EA301 /* TargetType.swift */; };
+		9268291E273E7F56006EA301 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268291D273E7F56006EA301 /* URLs.swift */; };
+		92682920273E8085006EA301 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268291F273E8085006EA301 /* BaseAPI.swift */; };
+		92682922273E80B2006EA301 /* MarasiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682921273E80B2006EA301 /* MarasiError.swift */; };
+		92682925273E8C11006EA301 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682924273E8C11006EA301 /* DesignSystem.swift */; };
+		92682927273E8C37006EA301 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92682926273E8C37006EA301 /* Colors.swift */; };
+		C167E349F2C7975B1EC925BF /* Pods_Marasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC68F33BC9C829D735B8D150 /* Pods_Marasi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C63D9B2DA2B286CC59EA386 /* Pods-Marasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marasi.debug.xcconfig"; path = "Target Support Files/Pods-Marasi/Pods-Marasi.debug.xcconfig"; sourceTree = "<group>"; };
 		926828E8273D4F84006EA301 /* Marasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926828EB273D4F84006EA301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926828ED273D4F84006EA301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		926828EF273D4F84006EA301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		926828F2273D4F84006EA301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926828EF273D4F84006EA301 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		926828F4273D4F85006EA301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926828F7273D4F85006EA301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926828F9273D4F85006EA301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92682902273D8B0E006EA301 /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		92682903273D8B0E006EA301 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		92682904273D8B0E006EA301 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		92682905273D8B0E006EA301 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		92682906273D8B0E006EA301 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		92682907273D8B0E006EA301 /* Cairo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		92682908273D8B0E006EA301 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		92682909273D8B0E006EA301 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9268290D273D8F29006EA301 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		92682910273D8F7A006EA301 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		92682913273D8FB9006EA301 /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
+		92682915273D9006006EA301 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9268291B273E7F22006EA301 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		9268291D273E7F56006EA301 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		9268291F273E8085006EA301 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		92682921273E80B2006EA301 /* MarasiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarasiError.swift; sourceTree = "<group>"; };
+		92682924273E8C11006EA301 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		92682926273E8C37006EA301 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B7029675C38122E1309DC0F4 /* Pods-Marasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marasi.release.xcconfig"; path = "Target Support Files/Pods-Marasi/Pods-Marasi.release.xcconfig"; sourceTree = "<group>"; };
+		BC68F33BC9C829D735B8D150 /* Pods_Marasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C167E349F2C7975B1EC925BF /* Pods_Marasi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18503BC7317599D417978265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C63D9B2DA2B286CC59EA386 /* Pods-Marasi.debug.xcconfig */,
+				B7029675C38122E1309DC0F4 /* Pods-Marasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		926828DF273D4F84006EA301 = {
 			isa = PBXGroup;
 			children = (
 				926828EA273D4F84006EA301 /* Marasi */,
 				926828E9273D4F84006EA301 /* Products */,
+				18503BC7317599D417978265 /* Pods */,
+				D39AA2B91140EAE5E942FBDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,128 @@
 		926828EA273D4F84006EA301 /* Marasi */ = {
 			isa = PBXGroup;
 			children = (
+				926828FF273D89CC006EA301 /* Startup */,
+				9268291A273E7F07006EA301 /* Networking */,
+				9268290A273D8BF2006EA301 /* Scences */,
+				92682900273D8A51006EA301 /* Resources */,
+				9268290F273D8F54006EA301 /* Utilities */,
+				92682912273D8F98006EA301 /* Constants */,
+			);
+			path = Marasi;
+			sourceTree = "<group>";
+		};
+		926828FF273D89CC006EA301 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
 				926828EB273D4F84006EA301 /* AppDelegate.swift */,
 				926828ED273D4F84006EA301 /* SceneDelegate.swift */,
-				926828EF273D4F84006EA301 /* ViewController.swift */,
-				926828F1273D4F84006EA301 /* Main.storyboard */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		92682900273D8A51006EA301 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92682923273E8B65006EA301 /* DesignSystem */,
 				926828F4273D4F85006EA301 /* Assets.xcassets */,
 				926828F6273D4F85006EA301 /* LaunchScreen.storyboard */,
 				926828F9273D4F85006EA301 /* Info.plist */,
 			);
-			path = Marasi;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92682901273D8ABB006EA301 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92682903273D8B0E006EA301 /* Cairo-Black.ttf */,
+				92682906273D8B0E006EA301 /* Cairo-Bold.ttf */,
+				92682902273D8B0E006EA301 /* Cairo-ExtraBold.ttf */,
+				92682909273D8B0E006EA301 /* Cairo-ExtraLight.ttf */,
+				92682908273D8B0E006EA301 /* Cairo-Light.ttf */,
+				92682907273D8B0E006EA301 /* Cairo-Medium.ttf */,
+				92682904273D8B0E006EA301 /* Cairo-Regular.ttf */,
+				92682905273D8B0E006EA301 /* Cairo-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9268290A273D8BF2006EA301 /* Scences */ = {
+			isa = PBXGroup;
+			children = (
+				9268290B273D8C09006EA301 /* Home */,
+			);
+			path = Scences;
+			sourceTree = "<group>";
+		};
+		9268290B273D8C09006EA301 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9268290C273D8C12006EA301 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9268290C273D8C12006EA301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				926828EF273D4F84006EA301 /* HomeVC.swift */,
+				9268290D273D8F29006EA301 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9268290F273D8F54006EA301 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				92682910273D8F7A006EA301 /* Storyboarded.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		92682912273D8F98006EA301 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				92682915273D9006006EA301 /* Constants.swift */,
+				92682913273D8FB9006EA301 /* StoryboardName.swift */,
+				9268291D273E7F56006EA301 /* URLs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9268291A273E7F07006EA301 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9268291B273E7F22006EA301 /* TargetType.swift */,
+				9268291F273E8085006EA301 /* BaseAPI.swift */,
+				92682921273E80B2006EA301 /* MarasiError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		92682923273E8B65006EA301 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				92682924273E8C11006EA301 /* DesignSystem.swift */,
+				92682928273E9504006EA301 /* Colors */,
+				92682901273D8ABB006EA301 /* Fonts */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		92682928273E9504006EA301 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				92682926273E8C37006EA301 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		D39AA2B91140EAE5E942FBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC68F33BC9C829D735B8D150 /* Pods_Marasi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 926828FC273D4F85006EA301 /* Build configuration list for PBXNativeTarget "Marasi" */;
 			buildPhases = (
+				F0A63BC9B431B92350A068BF /* [CP] Check Pods Manifest.lock */,
 				926828E4273D4F84006EA301 /* Sources */,
 				926828E5273D4F84006EA301 /* Frameworks */,
 				926828E6273D4F84006EA301 /* Resources */,
+				FA27DF37EFB176DD25C05BCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +281,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9268290E273D8F29006EA301 /* Home.storyboard in Resources */,
 				926828F8273D4F85006EA301 /* LaunchScreen.storyboard in Resources */,
 				926828F5273D4F85006EA301 /* Assets.xcassets in Resources */,
-				926828F3273D4F84006EA301 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0A63BC9B431B92350A068BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA27DF37EFB176DD25C05BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marasi/Pods-Marasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		926828E4273D4F84006EA301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926828F0273D4F84006EA301 /* ViewController.swift in Sources */,
+				926828F0273D4F84006EA301 /* HomeVC.swift in Sources */,
+				92682927273E8C37006EA301 /* Colors.swift in Sources */,
+				92682914273D8FB9006EA301 /* StoryboardName.swift in Sources */,
 				926828EC273D4F84006EA301 /* AppDelegate.swift in Sources */,
+				92682920273E8085006EA301 /* BaseAPI.swift in Sources */,
+				9268291E273E7F56006EA301 /* URLs.swift in Sources */,
+				92682922273E80B2006EA301 /* MarasiError.swift in Sources */,
 				926828EE273D4F84006EA301 /* SceneDelegate.swift in Sources */,
+				92682925273E8C11006EA301 /* DesignSystem.swift in Sources */,
+				92682911273D8F7A006EA301 /* Storyboarded.swift in Sources */,
+				92682916273D9006006EA301 /* Constants.swift in Sources */,
+				9268291C273E7F22006EA301 /* TargetType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		926828F1273D4F84006EA301 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				926828F2273D4F84006EA301 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		926828F6273D4F85006EA301 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +483,14 @@
 		};
 		926828FD273D4F85006EA301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C63D9B2DA2B286CC59EA386 /* Pods-Marasi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VDS2KW7A7;
-				INFOPLIST_FILE = Marasi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Marasi/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +498,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdelrahman.Marasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		926828FE273D4F85006EA301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7029675C38122E1309DC0F4 /* Pods-Marasi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VDS2KW7A7;
-				INFOPLIST_FILE = Marasi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Marasi/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdelrahman.Marasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
