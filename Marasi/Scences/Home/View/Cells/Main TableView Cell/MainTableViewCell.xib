@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-ExtraBold.ttf">
+            <string>Cairo-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainTableViewCellID" rowHeight="398" id="KGk-i7-Jjw" customClass="MainTableViewCell" customModule="Marasi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="398"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="568" height="398"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xqZ-uK-YrE">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="wVj-WY-240"/>
+                        </constraints>
+                    </imageView>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="y6l-2z-H3X">
+                        <rect key="frame" x="10" y="87" width="548" height="301"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XJM-31-gYr">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="aIT-ea-tj0"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="Pcw-0N-qz8"/>
+                        </connections>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التصنيف" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73w-j0-A4h">
+                        <rect key="frame" x="20" y="23" width="528" height="34"/>
+                        <fontDescription key="fontDescription" name="Cairo-ExtraBold" family="Cairo" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="y6l-2z-H3X" secondAttribute="trailing" constant="10" id="1oM-ZB-A04"/>
+                    <constraint firstItem="xqZ-uK-YrE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="M38-x8-1h6"/>
+                    <constraint firstItem="y6l-2z-H3X" firstAttribute="top" secondItem="73w-j0-A4h" secondAttribute="bottom" constant="30" id="Qtb-VJ-IgU"/>
+                    <constraint firstItem="y6l-2z-H3X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TdL-GF-0SU"/>
+                    <constraint firstItem="73w-j0-A4h" firstAttribute="centerY" secondItem="xqZ-uK-YrE" secondAttribute="centerY" constant="-50" id="Wne-cY-bjr"/>
+                    <constraint firstAttribute="trailing" secondItem="xqZ-uK-YrE" secondAttribute="trailing" id="auf-qR-jln"/>
+                    <constraint firstItem="73w-j0-A4h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="du9-ex-hpG"/>
+                    <constraint firstItem="xqZ-uK-YrE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pqs-DC-226"/>
+                    <constraint firstAttribute="trailing" secondItem="73w-j0-A4h" secondAttribute="trailing" constant="20" id="pzs-U3-XiT"/>
+                    <constraint firstItem="73w-j0-A4h" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="vF4-Pr-3mN"/>
+                    <constraint firstAttribute="bottom" secondItem="y6l-2z-H3X" secondAttribute="bottom" constant="10" id="vuk-ps-CKk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainCollectionView" destination="y6l-2z-H3X" id="LWy-tL-39k"/>
+                <outlet property="productsCategoryBackgroundIV" destination="xqZ-uK-YrE" id="F1D-da-en9"/>
+                <outlet property="productsCategoryLabel" destination="73w-j0-A4h" id="3J8-gk-sV7"/>
+            </connections>
+            <point key="canvasLocation" x="66.666666666666671" y="38.839285714285715"/>
+        </tableViewCell>
+    </objects>
+</document>

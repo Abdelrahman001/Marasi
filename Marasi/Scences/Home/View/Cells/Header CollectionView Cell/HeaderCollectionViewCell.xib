@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Bold.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderCollectionViewCellID" id="gTV-IL-0wX" customClass="HeaderCollectionViewCell" customModule="Marasi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="144" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="144" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WE-xm-qXX">
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="161"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UOC-qJ-rQn">
+                                <rect key="frame" x="0.0" y="5" width="144" height="128.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="القسم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2m-W8-X13">
+                                <rect key="frame" x="0.0" y="133.5" width="144" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="P2m-W8-X13" secondAttribute="bottom" constant="5" id="3mY-GC-ykd"/>
+                            <constraint firstItem="UOC-qJ-rQn" firstAttribute="leading" secondItem="6WE-xm-qXX" secondAttribute="leading" id="IOX-hc-Npg"/>
+                            <constraint firstItem="P2m-W8-X13" firstAttribute="leading" secondItem="UOC-qJ-rQn" secondAttribute="leading" id="SrK-RQ-MHK"/>
+                            <constraint firstAttribute="trailing" secondItem="UOC-qJ-rQn" secondAttribute="trailing" id="Vhs-f7-GqE"/>
+                            <constraint firstItem="UOC-qJ-rQn" firstAttribute="top" secondItem="6WE-xm-qXX" secondAttribute="top" constant="5" id="hoP-8x-4kN"/>
+                            <constraint firstItem="P2m-W8-X13" firstAttribute="trailing" secondItem="UOC-qJ-rQn" secondAttribute="trailing" id="rvu-ml-Dyx"/>
+                            <constraint firstItem="P2m-W8-X13" firstAttribute="top" secondItem="UOC-qJ-rQn" secondAttribute="bottom" id="wMZ-I1-Nnk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6WE-xm-qXX" secondAttribute="trailing" id="FnL-2r-zof"/>
+                <constraint firstItem="6WE-xm-qXX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qcx-Wn-fLT"/>
+                <constraint firstItem="6WE-xm-qXX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bb0-Qc-8Hs"/>
+                <constraint firstAttribute="bottom" secondItem="6WE-xm-qXX" secondAttribute="bottom" id="kRp-rD-nZS"/>
+            </constraints>
+            <size key="customSize" width="144" height="161"/>
+            <connections>
+                <outlet property="categoryIV" destination="UOC-qJ-rQn" id="kJl-gs-AHm"/>
+                <outlet property="categoryLabel" destination="P2m-W8-X13" id="Zvr-8F-i66"/>
+                <outlet property="containerView" destination="6WE-xm-qXX" id="Plr-R1-IXC"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="97.433035714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>
